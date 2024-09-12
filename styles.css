@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+}
+
+.background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundIphone {
+  width: 430px;
+  height: 890px;
+  background-color: #ffffff;
+  border: 5px solid black;
+  border-radius: 40px;
+}
+
+.upBar {
+  display: flex;
+  justify-content: space-between;
+  height: 68.98px;
+  padding: 20px 40px 0 40px;
+}
+
+.time {
+  font-weight: 600;
+}
+
+.iphoneIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ccenter {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.signal {
+  background-image: url(public/free-icon-signal-8163002.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 25px;
+}
+
+.wifi {
+  background-image: url(public/free-icon-wifi-signal-88014.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25.54px;
+  height: 16px;
+}
+
+.battery {
+  background-image: url(public/free-icon-battery-664883.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25.54px;
+  height: 20px;
+}
+
+.logoBetween {
+  width: 430px;
+  height: 52.6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-image: url(public/instagram-new-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 156.82px;
+  height: 52.6px;
+  margin-left: 17.2px;
+}
+
+.logoButton {
+  height: 41.74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 17.2px;
+  gap: 28.08px;
+}
+
+.logoHeart {
+  width: 29.2px;
+  height: 20.92px;
+  background-color: #ffffff;
+  background-image: url(public/emptyHeart.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+}
+
+.logoSend {
+  width: 29.2px;
+  height: 20.92px;
+  background-color: #ffffff;
+  background-image: url(public/free-icon-send-2550207.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+}
+
+.storyArea {
+  width: 430px;
+  height: 82px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.story {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 20px;
+  display: inline-block;
+}
